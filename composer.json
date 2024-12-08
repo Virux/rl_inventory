@@ -1,0 +1,23 @@
+{
+    "name": "virux/rl_inventory2",
+    "description": "rl_inventory",
+    "type": "project",
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.29"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Virux\\RlInventory2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luis Cano",
+            "email": "lcano3435@gmail.com"
+        }
+    ]
+}
